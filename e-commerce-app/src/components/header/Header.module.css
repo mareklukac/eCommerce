@@ -1,0 +1,40 @@
+.topNavbar {
+  overflow: hidden;
+  background-color: #232931;
+}
+
+.topNavbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.topNavbar a {
+  float: left;
+  color: #eeeeee;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.topNavbar a:hover {
+  color: #4ecca3;
+}
+
+.topNavbar a:active {
+  background-color: #4ecca3;
+  color: #232931;
+  box-shadow: 6px 6px 13px -2px rgba(0, 0, 0, 0.75);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.leftNav {
+  float: left;
+  margin-bottom: 0;
+}
+
+.rightNav {
+  float: right;
+  margin-bottom: 0;
+}
