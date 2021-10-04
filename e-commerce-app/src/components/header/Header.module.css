@@ -1,20 +1,22 @@
 .topNavbar {
   overflow: hidden;
   background-color: #232931;
+  margin: 0;
 }
 
 .topNavbar li {
   list-style-type: none;
   display: inline-block;
+  margin-left: 1rem;
 }
 
 .topNavbar a {
-  float: left;
   color: #eeeeee;
   text-align: center;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .topNavbar a:hover {
@@ -28,13 +30,16 @@
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
-
-.leftNav {
-  float: left;
-  margin-bottom: 0;
+.ulLeftNav,
+.ulRightNav {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
-.rightNav {
-  float: right;
-  margin-bottom: 0;
+.ulRightNav {
+  text-align: right;
+}
+
+.ulLeftNav {
+  text-align: left;
 }
